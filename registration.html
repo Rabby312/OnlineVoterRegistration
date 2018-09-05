@@ -1,0 +1,148 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="color.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Voter Registration</title>
+    
+    <style>
+      input[type=text], input[type=password],input[type=numeric] {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+      }
+      input[type=radio]{
+        width:5%;
+      }
+
+      #form{
+        background: white;
+        color:blue;
+        margin:2px solid green;
+        padding:5px;
+        width:500px;
+
+
+
+      }
+      button {
+        background-color: #4CAF50;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+        width: 30%;
+      }
+
+      button:hover {
+        opacity: 0.8;
+      }
+    </style>
+  </head>
+  <body>
+    <img src="logoo.jpg" height="60" width="300"alt="logo" />
+    <h1 style="font-size:50px";>Online Voter Registration</h1>
+    <div class="nav">
+      <ul>
+        <li><a href="Home.html">HOME</a></li>
+        <li><a href="#">ABOUT BEC</a></li>
+        <li><a href="registration.html">REGISTRATION</a></li>
+        <li><a href="#">LOGIN</a></li>
+        <li><a href="#">LAWS & RULES</a></li>
+        <li><a href="#">VOTER INFORMATION</a>
+          <ul>
+            <li><a href="#">VOTER LIST</a></li>
+          </ul>
+        </li>
+        <li><a href="#">NEWS</a></li>
+        <li><a href="#">CONTACT US</a></li>
+      </ul>
+    </div>
+    <font color="WHITE"><marquee direction="left" style="background:white;color:blue;">
+      <strong>Breaking News: </strong>Online voter registration started from 1 january 2018</marquee></font>
+    <center>
+      <fieldset style="width:400px">
+        <legend>Registration Form</legend>
+        <div id="form">
+          <form>
+            <h2>Personal Information</h2>
+            <hr>
+            First Name <input type="text" name="fname" placeholder="first name" required><br>
+            Last Name <input type="text" name="lname" placeholder="last name" required><br>
+            Date of Birth <input type="date" name="birth" required><br>
+
+            Gender 
+            <input type="radio" name="gender" value="male">Male
+            <input type="radio" name="gender" value="female">Female
+            <br>
+            Religion
+            <input type="radio" name="religion" value="muslim" checked>Muslim
+            <input type="radio" name="religion" value="hindu">Hindu
+            <input type="radio" name="religion" value="buddhist">Buddhist
+            <input type="radio" name="religion" value="christian">Christian
+            <input type="radio" name="religion" value="others">Others<br>
+             Email <input type="text" name="email" placeholder="enter your email" required><br>
+             Password <input type="password" name="password" placeholder="enter your password" required><br>
+             Confirm Password<input type="password" name="password" placeholder="enter your password" required><br>
+            Mobile Number <input type="numeric" name="mobile" placeholder="enter your mobile number" required><br>
+            Occupation <input type="text" name="occupation" placeholder="enter occupation" required><br>
+            Blood Group
+            <input type="radio" name="blood" value="A+" checked>A+
+            <input type="radio" name="blood" value="A-">A-
+            <input type="radio" name="blood" value="B+">B+
+            <input type="radio" name="blood" value="B-">B-
+            <input type="radio" name="blood" value="O+">O+
+             <input type="radio" name="blood" value="O-">O-
+             <input type="radio" name="blood" value="AB+">AB+
+            <input type="radio" name="blood" value="AB-">AB-<br>
+          
+            Parmanent Address<br>
+            <textarea cols=30 rows=10> </textarea><br>
+            Present Address<br>
+            <textarea cols=30 rows=10> </textarea><br>
+            <h2>Father Information</h2>
+            <hr>
+            Father Name <input type="text" name="father" placeholder="enter your father name" required><br>
+            Father NID Number(if exist)<input type ="numeric" name="father_nid" placeholder="enter nid number" required><br>
+            Occupation <input type="text" name="occupation" placeholder="enter occupation" required><br>
+            <h2>Mother Information</h2>
+            <hr>
+            Mother Name <input type="text" name="mother" placeholder="enter your mother name" required><br>
+            Mother NID Number(if exist)<input type ="numeric" name="mother_nid" placeholder="enter nid number" required><br>
+            Occupation <input type="text" name="occupation" placeholder="enter occupation" required><br>
+            <h2>Brother/Sister Information</h2>
+            <hr>
+            Brother/Sister Name(if exist)<input type="text" name="b_s_name" placeholder="enter brother or sister name"><br>
+             NID Number(if exist)<input type ="numeric" name="b_s_nid" placeholder="enter nid number" required><br>
+            <h2>Hasband/Wife Information</h2>
+            <hr>
+            Marital Status<input type="radio" name="marital" value="unmarried" checked>Unmarried
+            <input type="radio" name="marital" value="married">Married
+            <input type="radio" name="marital" value="divorced">Divorced
+            <input type="radio" name="marital" value="widow">Widow<br>
+            <h3>if married</h3><br>
+            <select>
+              <option value="volvo">Hasband</option>
+              <option value="saab">Wife</option>
+            </select>
+            <input type="text" name="h_w_name" placeholder="enter name"><br>
+            NID Number(if exist)<input type ="numeric" name="h_w_nid" placeholder="enter nid number" required><br>
+            
+            <input type="checkbox" required>Are you sure?<br>
+            <button type="submit">Submit</button>
+            <button type="Reset">Reset</button>
+          </form>
+        </div>
+      </fieldset>
+    </center>
+    <div class="footer">
+      <p>Copyright@Bangladesh Election Commission</p>
+    </div>
+  </body>
+</html>
+  </body>
+</html>
