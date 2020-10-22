@@ -2,6 +2,7 @@
 
 <?php
     include("config.php");
+//voter profile for user
     //$email=$_POST['email'];
     $result="select * from users";
     $run= mysqli_query($conn,$result);
