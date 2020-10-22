@@ -1,4 +1,5 @@
 ﻿<html>
+<!--delete news form-->
 <head>
 <title>Delete</title>
 <script type="text/javascript">
