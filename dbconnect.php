@@ -1,6 +1,7 @@
 ﻿
 
 <?php
+//database connect for user db name is registration
 
 $servername = 'localhost';
 $username = 'root';
