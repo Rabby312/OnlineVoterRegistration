@@ -1,7 +1,7 @@
 ﻿
 <?php
 session_start();
-
+//registration form validation 
 if(isset($_POST['Submit']))
 { 
   $_SESSION['fname']= $_POST['fname'];
