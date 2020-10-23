@@ -1,4 +1,5 @@
 ﻿<!DOCTYPE HTML>  
+<!--this is eligibility page for voter registration system-->
 <html>
 <head>
 <link rel="stylesheet" type="text/css" href="color.css">
